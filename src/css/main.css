@@ -39,13 +39,14 @@ html {
 }
 
 /*
+A comment marker
 */
 a {
   font-family: Poppins-Regular;
   font-size: 14px;
   line-height: 1.7;
   color: #666;
-  margin: 0px;
+  margin: 0.1px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -76,7 +77,7 @@ p {
   font-family: Poppins-Regular;
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
+  color: #666;
   margin: 0px;
 }
 
@@ -136,35 +137,35 @@ textarea:focus:-ms-input-placeholder {
 }
 
 input::-webkit-input-placeholder {
-  color: #999
+  color: #999;
 }
 
 input:-moz-placeholder {
-  color: #999
+  color: #999;
 }
 
 input::-moz-placeholder {
-  color: #999
+  color: #999;
 }
 
 input:-ms-input-placeholder {
-  color: #999
+  color: #999;
 }
 
 textarea::-webkit-input-placeholder {
-  color: #999
+  color: #999;
 }
 
 textarea:-moz-placeholder {
-  color: #999
+  color: #999;
 }
 textarea::-moz-place
 holder {
-  color: #999
+  color: #999;
 }
 
 textarea:-ms-input-placeholder {
-  color: #999
+  color: #999;
 }
 
 /*
@@ -190,14 +191,14 @@ iframe {
   font-family: Poppins-Regular;
   font-size: 13px;
   line-height: 1.5;
-  color: #999
+  color: #999;
 }
 
 .txt2 {
   font-family: Poppins-Regular;
   font-size: 13px;
   line-height: 1.5;
-  color: #666666;
+  color: #666;
 }
 
 /*
@@ -233,7 +234,6 @@ iframe {
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -250,8 +250,7 @@ iframe {
 */
 .login100-pic {
   width: 316px;
-  padding-top: 150px; /* padding: 10px 10px 20px 20px 70% 10%
-  padding-bottom: 100px*/
+  padding-top: 150px;
 }
 
 .login100-pic img {
@@ -290,8 +289,7 @@ iframe {
   font-family: Poppins-Medium;
   font-size: 15px;
   line-height: 1.5;
-  color: #666666;
-
+  color: #666;
   display: block;
   width: 100%;
   background: #e6e6e6;
@@ -337,7 +335,6 @@ iframe {
 
 .symbol-input100 {
   font-size: 15px;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -352,7 +349,7 @@ iframe {
   height: 100%;
   padding-left: 35px;
   pointer-events: none;
-  color: #666666;
+  color: #666;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -505,7 +502,7 @@ iframe {
   right: 13px;
 }
 
-.alert-validate:hover:before {
+.alert-validate:hover::before {
   visibility: visible;
   opacity: 1;
 }
@@ -522,7 +519,6 @@ iframe {
 .btn-show-pass {
   font-size: 15px;
   color: #aaaaaa;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
